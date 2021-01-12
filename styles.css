@@ -1,0 +1,80 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+.container {
+
+    display: flex;
+}
+
+.navBar {
+
+background-color: black;
+height: 50px;
+
+}
+
+.navBar img {
+    width: 50px;
+}
+
+
+header {
+
+    background-image: url("assets/img/Header/head-bg-mb@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 300px;
+
+}
+
+p {
+    margin-top: 40px;
+    margin-left: 20px;  
+    color: white;
+}
+span {
+
+    margin-left: 27px;
+    color: yellow;
+}
+
+
+button {
+    text-align: center;
+    width: 300px;
+    height: 38px;
+    border: 2px solid yellow;
+    background: transparent;
+    color: yellow;
+
+}
+
+.logo_electro {
+
+    width: 205px;
+    margin-top: 45px;
+
+
+    
+
+}
+
+.logo_chica {
+
+    height: 228px;
+    margin-top: 10px;
+
+}
+
+
+.texto_sustentable {
+
+    height: 50px;
+}
