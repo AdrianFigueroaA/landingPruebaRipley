@@ -1,52 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
     <script src="index.js"></script>
     <title>Ripley</title>
-</head>
+  </head>
 
-<body>
-
-  
+  <body>
     <nav class="navBar">
-        <img src="assets/img/iconos/r.png" alt="">
-        <img src="assets/img/iconos/lupa.png" alt="">
-        <img src="assets/img/iconos/inicio.png" alt="">
-        <img src="assets/img/iconos/carro.png" alt="">
+      <div class="button_nav" id="button_link">
+        <img src="assets/img/iconos/r.png" alt="" />
+      </div>
+      <div class="button_nav">
+        <img src="assets/img/iconos/lupa.png" alt="" />
+      </div>
+      <div class="button_nav">
+        <img src="assets/img/iconos/inicio.png" alt="" />
+      </div>
+      <div class="button_nav">
+        <img src="assets/img/iconos/carro.png" alt="" />
+      </div>
+      <div class="button_nav">
+        <img src="assets/img/iconos/menu.png" alt="" />
+      </div>
     </nav>
-    
-        <header class="header">
-    
-            <img class="logo_chica" src="assets/img/Header/chica-head-mb@2x.png" alt="">
-           
 
-            <div class="texto_sustentable">
-                <img  class="logo_electro" src="assets/img/Header/logo-electromovilidad.svg" alt="">
-
-                <p>MUEVETE </p>
-                <span>SUSTENTABLE</span>
-
-<div>
-    <button>VER TODO ELECTROMOVILIDAD</button>
-</div>
-                
-            </div>
-           
-           
+    <header class="header">
+      <div class="banner">
+          <div class="logo_chica">
+            <img
             
-        </header>
-    
-        <section class="electroMovilidad"></section>
+            src="assets/img/Header/chica-head-mb@2x.png"
+            alt=""
+          />
+          </div>
 
+          <div class="logo_chica2">
+            <img
+            
+            src="assets/img/Header/chica-head-desktop@2x.png"
+            alt=""
+          />
+          </div>
+        
 
+        <div class="electromov_log_texto">
+          <img
+            class="logo_electro"
+            src="assets/img/Header/logo-electromovilidad.svg"
+            alt=""
+          />
 
+          <div class="texto_sustentable">
+            <p>¡MUÉVETE</p>
+            <span>SUSTENTABLE!</span>
+          </div>
+         
+        </div>
 
+        
+        </div>
 
+        <div class="contenedor_button_electro" >
+            <button class="button_electro" >VER TODO ELECTROMOVILIDAD</button>
+          </div>
+    </header>
 
+    <section class="categorias">
+      <div class="transporte">
+        <img src="assets/img/iconos/001-scooter.svg" alt="scooter" />
+        <p>Scooters</p>
+      </div>
+      <div class="transporte">
+        <img src="assets/img/iconos/002-bycicle.svg" alt="bycicle" />
+        <p>Bicicletas</p>
+      </div>
+      <div class="transporte">
+        <img
+          src="assets/img/iconos/003-transportation.svg"
+          alt="transportation"
+        />
+        <p>Moto</p>
+      </div>
+      <div class="transporte">
+        <img src="assets/img/iconos/004-accesories.svg" alt="accesories" />
+        <p>Accesorios</p>
+      </div>
+    </section>
 
+    <section class="electroMovilidad">
+      <img
+        class="llamado"
+        src="assets/img/scooters/llamado-1-mb@2x.png"
+        alt=""
+      />
+      <p>
+        El scooter eléctrico contribuye a reducir la congestión vehicular y la
+        contaminacion urbana.Súbete a la electromovilidad hoy con nuestras
+        mejores ofertas.
+      </p>
 
-</body>
+      <img
+        class="scooter_title"
+        src="assets/img/scooters/scooter-title-mb@2x.png"
+        alt=""
+      />
+      <img
+        class="scooter_desk"
+        src="assets/img/scooters/scooter-title@2x.png"
+        alt=""
+      />
+    </section>
+
+    <section class="carousel1">
+      <div class="carou2"></div>
+      <h1>SCOOTER ELÉTRICO 10´ ZEECLO FENIX</h1>
+      <span>599.990</span>
+      <button class="button_carousel1">VER PRODUCTOS</button>
+    </section>
+
+    <section class="carousel2">
+      <div class="titulo_carousel2">
+        <h1>LO MEJOR EN</h1>
+        <span>MOVILIDAD SOSTENIBLE</span>
+
+        <div class="carou2"></div>
+        <span>199.990</span>
+
+        <button class="button_carousel1">LO QUIERO</button>
+      </div>
+    </section>
+  </body>
 </html>

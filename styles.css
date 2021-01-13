@@ -4,24 +4,44 @@
     margin: 0;
   }
 
-.container {
-
-    display: flex;
-}
 
 .navBar {
 
-background-color: black;
+background-color: #1a1a1a;
 height: 50px;
+display: flex;
+justify-content: space-between;
 
 }
 
 .navBar img {
-    width: 50px;
+    height: 50px;
 }
 
 
-header {
+
+.button_nav {
+
+   
+    cursor: pointer;
+}
+
+.button_nav:hover {
+
+    background-color:black;
+    
+}
+
+#button_link {
+
+border-right: 1px solid white;
+
+}
+
+
+
+
+.header {
 
     background-image: url("assets/img/Header/head-bg-mb@2x.jpg");
     background-repeat: no-repeat;
@@ -29,52 +49,280 @@ header {
     width: 100%;
     background-position: center;
     background-size: cover;
+}
+
+.contenedor_button_electro {
+
     display: flex;
-    height: 300px;
-
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    
 }
 
-p {
-    margin-top: 40px;
-    margin-left: 20px;  
-    color: white;
-}
-span {
-
-    margin-left: 27px;
-    color: yellow;
-}
-
-
-button {
+.button_electro {
     text-align: center;
     width: 300px;
     height: 38px;
-    border: 2px solid yellow;
+    border: 2px solid #ffce0e;
     background: transparent;
-    color: yellow;
+    color: #ffce0e;
+    cursor: pointer;    
+}
 
+.texto_sustentable p {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    font-size: 21px;
+}
+.texto_sustentable span {
+
+    margin-left: 32px;
+    color: #ffce0e;
+    font-size: 21px;
+}
+
+.banner {
+
+    display: flex;
 }
 
 .logo_electro {
 
     width: 205px;
     margin-top: 45px;
-
-
-    
-
 }
 
-.logo_chica {
-
+.logo_chica img{
     height: 228px;
     margin-top: 10px;
+}
+.logo_chica2 {
 
+    display: none;
 }
 
 
 .texto_sustentable {
 
     height: 50px;
+}
+
+
+.categorias {
+    display: flex;
+    justify-content: space-between;
+    background: #fece0c;
+}
+
+.transporte {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.transporte:hover {
+    box-shadow: 2px 2px 10px gray;
+    transition: 0.5s ease-in-out;
+  }
+
+
+  .transporte:nth-child(even) {
+    background:#e8b30d;
+  }
+
+
+.transporte img{
+
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.transporte p {
+
+
+    color: #8c004b;
+}
+
+
+.electroMovilidad {
+    margin-top: 25px;
+}
+
+
+/* .electroMovilidad img{
+
+    margin: auto;
+    display: block;
+
+} */
+
+.electroMovilidad p{
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 21px;
+}
+
+.scooter_desk {
+
+    display: none;
+}
+.llamado {
+
+    width: 85%;
+
+}
+.scooter_title {
+    margin: auto;
+    width: 90%;
+}
+
+.button_carousel1 {
+
+color: #682666 ;
+border: 2px solid #682666;
+text-align: center;
+width: 200px;
+height: 38px;
+background: transparent;
+
+
+}
+
+
+.carou2 {
+
+background-color: yellow;
+width: 200px;
+height: 400px;
+
+}
+
+.carousel2 {
+
+    text-align: center;
+
+}
+
+.carousel1 h1 {
+
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+.carousel1 span {
+
+    color:  #682666;
+}
+
+
+.carousel2 h1 {
+
+    color: #fece0c;
+    font-weight: bold;
+}
+
+.carousel2 span {
+
+    color:  #682666;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    .header {
+
+        background-image: url("assets/img/Header/head-desk-@2x.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .logo_chica {
+        display: none;
+    }
+    .logo_chica2 {
+
+        display: block;
+    }
+    .logo_chica2 img {
+
+        height: 535px;
+        position: absolute;
+        margin-left: 245px;
+    }
+    .categorias {
+
+        width: 360px;
+        margin-left: 653px;
+    }
+    .llamado {
+
+        width: 25%;
+    }
+    .electromov_log_texto {
+        margin-left: 600px;
+
+    }
+
+    .contenedor_button_electro {
+        
+        justify-content: right;
+        padding-bottom: 10px;
+        margin-right: 308px;
+
+    }
+    .logo_electro {
+        width: 375px;
+        margin-top: 15px;
+
+  }
+
+  .texto_sustentable {
+
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .texto_sustentable p {
+
+    display: inline;
+  }
+
+  .texto_sustentable span {
+    margin-left: 2px;
+  }
+
+  .scooter_desk {
+
+    display: block;
+    height: 300px;
+}
+
+.scooter_title {
+    display: none;
+}
 }
