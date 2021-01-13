@@ -4,6 +4,21 @@
     margin: 0;
   }
 
+  @font-face {
+    font-family: "FuturaStdBold";
+    src: url("assets/fonts/FuturaStdBold.otf");
+  }
+
+  @font-face {
+    font-family: "FuturaStdBook";
+    src: url("assets/fonts/FuturaStdBook.otf");
+  }
+  
+
+  body {
+
+    font-family:"FuturaStdBook", sans-serif ;
+  }
 
 .navBar {
 
@@ -12,6 +27,12 @@ height: 50px;
 display: flex;
 justify-content: space-between;
 
+}
+
+.texto_inicio_desk {
+
+
+    display: none;
 }
 
 .navBar img {
@@ -38,8 +59,21 @@ border-right: 1px solid white;
 
 }
 
+.menu_morado {
+display: none;
+
+}
+.menu_categorias {
 
 
+    display: none;
+}
+
+.search {
+
+
+    display: none;
+}
 
 .header {
 
@@ -146,8 +180,6 @@ border-right: 1px solid white;
 }
 
 .transporte p {
-
-
     color: #8c004b;
 }
 
@@ -172,6 +204,11 @@ border-right: 1px solid white;
     margin-bottom: 21px;
 }
 
+.texto_desk {
+
+    display: none;
+    }
+
 .scooter_desk {
 
     display: none;
@@ -181,6 +218,12 @@ border-right: 1px solid white;
     width: 85%;
 
 }
+
+.llamado2 {
+
+display: none;
+}
+
 .scooter_title {
     margin: auto;
     width: 90%;
@@ -252,40 +295,115 @@ height: 400px;
 
 
 @media only screen and (min-width: 600px) {
+   
+    .navBar {
+
+        justify-content: space-evenly;
+
+    }
+    #carro {
+        
+            
+            margin-right: 100px;
+
+    }
+
+    .menu_categorias {
+
+        display: flex;
+        align-items: center;
+        color: white;
+    }
+
+    .search {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 25px;
+        box-sizing: border-box;
+        display: block;
+    }
+    #lupa, #inicio, #menu {
+
+
+        display: none;
+    }
+    #button_link {
+        border-right: none;
+    }
+
+    .texto_inicio_desk {
+
+        display: flex;
+        align-items: center;
+        color: white;
+
+    }
+
+
+    .menu_morado {
+
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        color: #682666;
+        display: block;
+
+    }
     .header {
 
         background-image: url("assets/img/Header/head-desk-@2x.jpg");
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
         position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+;
+
     }
     
     .logo_chica {
         display: none;
     }
     .logo_chica2 {
-
         display: block;
     }
     .logo_chica2 img {
 
-        height: 535px;
-        position: absolute;
-        margin-left: 245px;
+        position: relative;
+        margin-top: 0px;
+        bottom: -132px;
+        height: 500px;
     }
     .categorias {
 
+       
         width: 360px;
-        margin-left: 653px;
+        position: absolute;
+        bottom: 0;
+        margin-left: 430px;
+        margin-bottom: 37px;
+                
     }
     .llamado {
 
-        width: 25%;
+        display: none;
     }
-    .electromov_log_texto {
-        margin-left: 600px;
+    .llamado2 {
+        display: block;
+        width: 35%;
+        
+        margin-top: 30px;
+    }
 
+    .electromov_log_texto {
+        
+        position: relative;
+        top: 120px;
     }
 
     .contenedor_button_electro {
@@ -295,21 +413,40 @@ height: 400px;
         margin-right: 308px;
 
     }
+    .electroMovilidad {
+
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row-reverse;
+
+
+
+    }
+
+    .electroMovilidad p {
+        
+        text-align: right;
+        
+    }
+
     .logo_electro {
         width: 375px;
-        margin-top: 15px;
+        margin-top: 55px;
 
   }
 
   .texto_sustentable {
 
     margin-left: 30px;
-    margin-top: 20px;
+margin-top: 13px;
   }
 
   .texto_sustentable p {
 
     display: inline;
+
+
+
   }
 
   .texto_sustentable span {
@@ -325,4 +462,25 @@ height: 400px;
 .scooter_title {
     display: none;
 }
+.texto_mb {
+
+display: none;
+}
+
+.texto_desk {
+text-align: right;
+display: block;
+}
+
+
+.contenedor_button_electro {
+    justify-content: right;
+    padding-bottom: 10px;
+    margin-right: 308px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 125px;
+    margin-left: 366px;
+}
+
 }
