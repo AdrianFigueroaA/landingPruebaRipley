@@ -220,12 +220,16 @@ display: none;
     background: transparent;
 }
 
+button:hover{
+    border: 2px solid gray;
+
+}
 
 .button_carousel4 {
     color: #682666 ;
     border: 2px solid #682666;
     text-align: center;
-    width: 200px;
+    width: 140px;;
     height: 38px;
     background: transparent;
     cursor: pointer;
@@ -270,8 +274,18 @@ display: none;
 }
 
 
+.slider-scooter-mobile {
 
+    display: block;
+    
+    }
 /* carousel slider */
+
+.slider_scooters_movilidad {
+
+    display: none !important;
+}
+
 
 .slider-scooters{
     width:300px;
@@ -294,23 +308,23 @@ display: none;
 
 
     .slider_scooters_movilidad{
-        width:85%;
-        margin:0 auto;
+        width:100%;
         text-align: center;
         padding:10px;
         color:#e8b30d;
         
       }
-      .slide_scooters_movilidad{
-        width:310px !important;
+
+      .slide_scooters_movilidad, .slider-scooter-mobile{
+        width:250px !important;
         
       }
-      .slider_scooters_movilidad, .parent-slide{
+      .slider_scooters_movilidad, .parent-slide, .slider-scooter-mobile {
         padding:10px;
     
       }
     
-     .slider_scooters_movilidad .img-responsive{
+     .slider_scooters_movilidad .img-responsive, .slider-scooter-mobile  .img-responsive{
          
         display: block;
         background:#fece0c ;
@@ -322,6 +336,22 @@ display: none;
 
     .slick-prev img, .slick-next img {
         height: 30px;
+    }
+
+
+    .button_carousel3 {
+        color:  black ;
+        border: 2px solid black;
+        background: transparent;
+        cursor: pointer;
+        width: 200px;
+        height: 35px;
+    }
+
+
+    .button_carousel span {
+
+        display: none;
     }
 
 /*fin carousel slider */
@@ -551,7 +581,27 @@ display: block;
 }
 
 
+
+
+
+/* slider mobile */
+.slider-scooter-mobile {
+
+display: none !important;
+
+}
+.slider-scooter-mobile .slide_scooters_movilidad {
+
+
+    width: 200px;
+}
+/* final slider mobile */
+
+
+
+
 /* carousel slider */
+
 
 .slider-scooters{
     width:400px;
@@ -578,6 +628,7 @@ display: block;
         width:85%;
         margin:0 auto;
         text-align: center;
+        display: block !important;
         padding:10px;
         color:#e8b30d;
         
@@ -619,7 +670,7 @@ display: block;
     color: #682666 ;
     border: 2px solid #682666;
     text-align: center;
-    width: 200px;
+    width: 170px;
     height: 38px;
     background: transparent;
     cursor: pointer;
