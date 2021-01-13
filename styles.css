@@ -186,6 +186,9 @@ display: none;
 
 .electroMovilidad {
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -216,6 +219,7 @@ display: none;
 .llamado {
 
     width: 85%;
+    margin: auto;
 
 }
 
@@ -553,6 +557,7 @@ display: block;
     display: block;
     margin:auto;
     background:#fece0c ;
+    height: 306px;
 }
 
 
@@ -582,5 +587,16 @@ display: block;
     cursor: pointer;
 }
 
+.slider2 {
+
+    width: 400px;
+}
+
+.slider2 img {
+
+width: 300px;
+
+
+}
 
 }
