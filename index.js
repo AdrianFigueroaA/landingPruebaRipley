@@ -7,7 +7,7 @@ window.onload=function(){
     nextArrow:'<button type="button" class="slick-next"></button>',
     centerMode:true,
     slidesToShow:3,
-    slidesToScroll:2
+    slidesToScroll:3
     });
 
        $('.slider2').slick({
@@ -18,6 +18,6 @@ window.onload=function(){
             nextArrow:'<button type="button" class="slick-next"></button>',
             centerMode:true,
             slidesToShow:1,
-            slidesToScroll:1
+            slidesToScroll:3
             });
   };

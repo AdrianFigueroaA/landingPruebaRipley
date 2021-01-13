@@ -42,41 +42,29 @@ justify-content: space-between;
 
 
 .button_nav {
-
-   
     cursor: pointer;
 }
 
 .button_nav:hover {
-
     background-color:black;
-    
 }
 
 #button_link {
-
-border-right: 1px solid white;
-
+    border-right: 1px solid white;
 }
 
 .menu_morado {
 display: none;
-
 }
 .menu_categorias {
-
-
     display: none;
 }
 
 .search {
-
-
     display: none;
 }
 
 .header {
-
     background-image: url("assets/img/Header/head-bg-mb@2x.jpg");
     background-repeat: no-repeat;
     background-position: center;
@@ -103,6 +91,12 @@ display: none;
     color: #ffce0e;
     cursor: pointer;    
 }
+
+.button_electro:hover {
+    box-shadow: 3px 3px 10px gray;
+    transition: 0.5s ease-in-out;
+  }
+
 
 .texto_sustentable p {
     margin-top: 40px;
@@ -192,13 +186,6 @@ display: none;
 }
 
 
-/* .electroMovilidad img{
-
-    margin: auto;
-    display: block;
-
-} */
-
 .electroMovilidad p{
 
     font-size: 18px;
@@ -246,6 +233,21 @@ background: transparent;
 }
 
 
+/* .button_electro:hover, .button_carousel1:hover,.button_carousel2, .button_carousel3,  .button_carousel4 {
+    box-shadow: 3px 3px 12px gray;
+    transition: 0.5s ease-in-out;
+  } */
+
+
+.button_carousel4 {
+    color: #682666 ;
+    border: 2px solid #682666;
+    text-align: center;
+    width: 200px;
+    height: 38px;
+    background: transparent;
+    cursor: pointer;
+}
 
 
 .carousel2 {
@@ -288,17 +290,55 @@ background: transparent;
 .boton_carousel {
 
     background:#fece0c ;
-    width: 306px;
+    width: 288px;
     margin: auto;
     padding-bottom: 15px;
     color: #6a2564;
 
 }
 
+.slider{
+    width:85%;
+    margin:10px auto;
+    text-align: center;
+    padding:10px;
+    color:#e8b30d;
+    
+  }
+  .slider parent-slide{
+    padding:10px;
+
+  }
+
+ .slider img{
+     
+    display: block;
+    margin:auto;
+    background:#fece0c ;
+    height: 306px;
+}
+
+
+.slide, .slick-slide, .slick-cloned, .slick-active {
+    width: 340px !important;
+    object-fit: contain !important;
+
+
+}
 
   
 
+.slider2 {
 
+    width: 300px;
+}
+
+.slider2 img {
+
+width: 300px;
+
+
+}
 
 
 
@@ -410,43 +450,30 @@ background: transparent;
     }
 
     .electromov_log_texto {
-        
         position: relative;
         left: 25px;
-        
     }
 
     .contenedor_button_electro {
-        
         justify-content: right;
         padding-bottom: 10px;
         margin-right: 308px;
-
     }
     .electroMovilidad {
-
         margin-top: 25px;
         display: flex;
         flex-direction: row-reverse;
         margin-top: 120px;
-
-
-
     }
 
     .electroMovilidad p {
-        
-        
         text-align: right;
         padding: 0 0 0 100px;
-        
     }
 
     .logo_electro {
         width: 375px;
         margin-top: 90px;
-
-
   }
 
   .texto_sustentable {
@@ -455,7 +482,6 @@ background: transparent;
   }
 
   .texto_sustentable p {
-
     display: inline;
     margin-left: 8px;
   }
@@ -465,14 +491,18 @@ background: transparent;
   }
 
   .scooter_desk {
-
-    display: block;
+    background-image: url("assets/img/scooters/scooter-title@2x.png");
+    display: flex;
+    width: 350px;
+    margin-right: 52px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: end;
+    justify-content: center;
 }
 
 .scooter_desk img{
-
-    height: 300px;
-    background: #e8b30c;
+    height: 500px;
 }
 
 
@@ -491,7 +521,6 @@ display: block;
 
 
 .contenedor_button_electro {
-   
     padding-bottom: 10px;
     position: absolute;
     bottom: 115px;
@@ -506,23 +535,22 @@ display: block;
 }
 
 .button_scooter_desk {
-
     text-align: center;
-    width: 300px;
+    width: 205px;
     height: 38px;
     border: 2px solid white;
     background: transparent;
     color: white;
-    cursor: pointer;  
-     
+    cursor: pointer;
+    background: #e8b30d;
+    position: relative;
+    top: 25px;
 }
 .boton_carousel p span {
-
     font-size: 10px;
 }
 
 .boton_carousel p  {
-
     padding-bottom: 10px;
 }
 
@@ -532,10 +560,8 @@ display: block;
     border: 2px solid black;
     background: transparent;
     cursor: pointer;
-    width: 250px;
+    width: 200px;
     height: 35px;
-
-
 }
 
 
@@ -587,15 +613,30 @@ display: block;
     cursor: pointer;
 }
 
+
 .slider2 {
 
-    width: 400px;
+    width: 300px;
 }
 
 .slider2 img {
 
 width: 300px;
 
+
+}
+
+
+
+.contenedor_boton_desk  {
+
+    background: #e8b30d;
+    height: 80px;
+    width: 319px;
+    margin-right: 31px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 52px;
 
 }
 
