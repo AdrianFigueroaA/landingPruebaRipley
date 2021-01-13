@@ -284,10 +284,26 @@ height: 400px;
 }
 
 
+.slider{
+    width:400px;
+    margin:20px auto;
+    text-align: center;
+    padding:20px;
+    color:white;
+    
+  }
+  .slider parent-slide{
+    padding:15px;
+
+  }
+
+ .slider  img{display: block;margin:auto;}
 
 
-
-
+.gallery-cell {
+    width: 100%;
+  }
+  
 
 
 
@@ -375,9 +391,9 @@ height: 400px;
     .logo_chica2 img {
 
         position: relative;
-        margin-top: 0px;
-        bottom: -132px;
-        height: 500px;
+        bottom: -105px;
+        height: 450px;
+        right: 28px;
     }
     .categorias {
 
@@ -396,14 +412,15 @@ height: 400px;
     .llamado2 {
         display: block;
         width: 35%;
-        
         margin-top: 30px;
+        margin-right: 215px;
     }
 
     .electromov_log_texto {
         
         position: relative;
-        top: 120px;
+        left: 25px;
+        
     }
 
     .contenedor_button_electro {
@@ -418,6 +435,7 @@ height: 400px;
         margin-top: 25px;
         display: flex;
         flex-direction: row-reverse;
+        margin-top: 120px;
 
 
 
@@ -425,28 +443,28 @@ height: 400px;
 
     .electroMovilidad p {
         
+        
         text-align: right;
+        padding: 0 0 0 100px;
         
     }
 
     .logo_electro {
         width: 375px;
-        margin-top: 55px;
+        margin-top: 90px;
+
 
   }
 
   .texto_sustentable {
-
-    margin-left: 30px;
-margin-top: 13px;
+    margin-top: 13px;
+    margin-left: 45px;
   }
 
   .texto_sustentable p {
 
     display: inline;
-
-
-
+    margin-left: 8px;
   }
 
   .texto_sustentable span {
@@ -456,8 +474,14 @@ margin-top: 13px;
   .scooter_desk {
 
     display: block;
-    height: 300px;
 }
+
+.scooter_desk img{
+
+    height: 300px;
+    background: #e8b30c;
+}
+
 
 .scooter_title {
     display: none;
@@ -474,13 +498,32 @@ display: block;
 
 
 .contenedor_button_electro {
-    justify-content: right;
+   
     padding-bottom: 10px;
-    margin-right: 308px;
     position: absolute;
-    bottom: 0;
-    margin-bottom: 125px;
-    margin-left: 366px;
+    bottom: 115px;
+    right: -11px;
 }
+
+
+.carousel1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button_scooter_desk {
+
+    text-align: center;
+    width: 300px;
+    height: 38px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;  
+     
+}
+
+
 
 }
