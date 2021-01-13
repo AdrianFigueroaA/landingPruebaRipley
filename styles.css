@@ -44,8 +44,6 @@ justify-content: space-between;
     height: 50px;
 }
 
-
-
 .button_nav {
     cursor: pointer;
 }
@@ -110,19 +108,16 @@ display: none;
     font-size: 21px;
 }
 .texto_sustentable span {
-
     margin-left: 32px;
     color: #ffce0e;
     font-size: 21px;
 }
 
 .banner {
-
     display: flex;
 }
 
 .logo_electro {
-
     width: 205px;
     margin-top: 45px;
 }
@@ -132,13 +127,11 @@ display: none;
     margin-top: 10px;
 }
 .logo_chica2 {
-
     display: none;
 }
 
 
 .texto_sustentable {
-
     height: 50px;
 }
 
@@ -170,7 +163,6 @@ display: none;
 
 
 .transporte img{
-
     width: 35px;
     display: flex;
     justify-content: center;
@@ -182,7 +174,6 @@ display: none;
     color: #8c004b;
 }
 
-
 .electroMovilidad {
     margin-top: 25px;
     display: flex;
@@ -192,7 +183,6 @@ display: none;
 
 
 .electroMovilidad p{
-
     font-size: 18px;
     font-weight: bold;
     text-align: center;
@@ -200,23 +190,19 @@ display: none;
 }
 
 .texto_desk {
-
     display: none;
     }
 
 .scooter_desk {
-
     display: none;
 }
 .llamado {
-
     width: 85%;
     margin: auto;
 
 }
 
 .llamado2 {
-
 display: none;
 }
 
@@ -226,22 +212,13 @@ display: none;
 }
 
 .button_carousel1 {
-
-color: #682666 ;
-border: 2px solid #682666;
-text-align: center;
-width: 200px;
-height: 38px;
-background: transparent;
-
-
+    color: #682666 ;
+    border: 2px solid #682666;
+    text-align: center;
+    width: 200px;
+    height: 38px;
+    background: transparent;
 }
-
-
-/* .button_electro:hover, .button_carousel1:hover,.button_carousel2, .button_carousel3,  .button_carousel4 {
-    box-shadow: 3px 3px 12px gray;
-    transition: 0.5s ease-in-out;
-  } */
 
 
 .button_carousel4 {
@@ -254,15 +231,11 @@ background: transparent;
     cursor: pointer;
 }
 
-
 .carousel2 {
-
     text-align: center;
-
 }
 
 .carousel1 h1 {
-
     font-size: 15px;
     font-weight: bold;
     text-align: center;
@@ -271,78 +244,28 @@ background: transparent;
 
 
 .carousel1 span {
-
     color:  #682666;
 }
 
 
 .carousel2 h1 {
-
     color: #fece0c;
     font-weight: bold;
 }
 
 .carousel2 span {
-
     color:  #682666;
-
 }
-
-
-
-
 
 .boton_carousel {
-
     background:#fece0c ;
     width: 288px;
-    margin: auto;
     padding-bottom: 15px;
     color: #6a2564;
-
 }
 
-/* .slider{
-    width:85%;
-    margin:10px auto;
-    text-align: center;
-    padding:10px;
-    color:#e8b30d;
-    
-  }
-  .slider parent-slide{
-    padding:10px;
-
-  }
-
- .slider .img-responsive{
-     
-    display: block;
-    margin:auto;
-    background:#fece0c ;
-    height: 250px;
-} */
-
-
-/* .slide, .slick-slide, .slick-cloned, .slick-active {
-    width: 340px !important;
-    object-fit: contain !important;
-} */
-
-/* .slider2 {
-    width: 300px;
-}
-
-.slider2 img {
-
-width: 300px;
-
-
-} */
 
 .slick-prev img, .slick-next img {
-
-
     height: 20px;
 }
 
@@ -350,35 +273,28 @@ width: 300px;
 @media only screen and (min-width: 600px) {
    
 
-.links {
-    display: block;
-    background:#313131 ;
-    text-align: center;
-    
-}
+    .links {
+        display: block;
+        background:#313131 ;
+        text-align: center;
+    }
 
-.links  a{
-    text-decoration: none;
-    color: white;
-    padding-right: 20px;
-    
-}
-
+    .links  a{
+        text-decoration: none;
+        color: white;
+        padding-right: 20px;
+        
+    }
 
     .navBar {
-
         justify-content: space-evenly;
-
     }
-    #carro {
-        
-            
-            margin-right: 100px;
 
+    #carro {
+            margin-right: 100px;
     }
 
     .menu_categorias {
-
         display: flex;
         align-items: center;
         color: white;
@@ -395,8 +311,6 @@ width: 300px;
         display: block;
     }
     #lupa, #inicio, #menu {
-
-
         display: none;
     }
     #button_link {
@@ -404,25 +318,19 @@ width: 300px;
     }
 
     .texto_inicio_desk {
-
         display: flex;
         align-items: center;
         color: white;
-
     }
 
-
     .menu_morado {
-
         height: 40px;
         width: 40px;
         border-radius: 50%;
         color: #682666;
         display: block;
-
     }
     .header {
-
         background-image: url("assets/img/Header/head-desk-@2x.jpg");
         background-repeat: no-repeat;
         background-position: bottom;
@@ -431,8 +339,6 @@ width: 300px;
         display: flex;
         flex-direction: column;
         align-items: center;
-;
-
     }
     
     .logo_chica {
@@ -442,24 +348,19 @@ width: 300px;
         display: block;
     }
     .logo_chica2 img {
-
         position: relative;
         bottom: -105px;
         height: 450px;
         right: 28px;
     }
     .categorias {
-
-       
         width: 360px;
         position: absolute;
         bottom: 0;
         margin-left: 430px;
         margin-bottom: 37px;
-                
     }
     .llamado {
-
         display: none;
     }
     .llamado2 {
@@ -525,7 +426,6 @@ width: 300px;
     height: 500px;
 }
 
-
 .scooter_title {
     display: none;
 }
@@ -539,14 +439,12 @@ text-align: right;
 display: block;
 }
 
-
 .contenedor_button_electro {
     padding-bottom: 10px;
     position: absolute;
     bottom: 115px;
     right: -11px;
 }
-
 
 .carousel1 {
     display: flex;
@@ -575,7 +473,6 @@ display: block;
 }
 
 .button_carousel3 {
-
     color:  black ;
     border: 2px solid black;
     background: transparent;
@@ -584,63 +481,10 @@ display: block;
     height: 35px;
 }
 
-/* 
-.slider_scooters_movilidad{
-    width:85%;
-    margin:10px auto;
-    text-align: center;
-    padding:10px;
 
-    
-  }
-  .slider_scooters_movilidadr parent-slide{
-    padding:10px;
+/* carousel slider */
 
-  }
-
-  .slider .img-responsive{
-     
-    display: block;
-    margin:auto;
-    background:#fece0c ;
-    height: 306px;
-} */
-
-
-/* .slide, .slick-slide, .slick-cloned, .slick-active {
-    width: 340px !important;
-
-} */
-
-.slick-prev img, .slick-next img {
-
-
-    height: 30px;
-}
-
-.carousel2 h1 {
-    
-    font-size: 55px;
-
-}
-
-.carousel2 span {
-    
-    font-size: 25px;
-}
-
-.button_carousel4 {
-    color: #682666 ;
-    border: 2px solid #682666;
-    text-align: center;
-    width: 200px;
-    height: 38px;
-    background: transparent;
-    cursor: pointer;
-}
-
-
-  .slider-scooters{
+.slider-scooters{
     width:400px;
     margin:20px 50px;
     text-align: center;
@@ -659,9 +503,56 @@ display: block;
    .slider-scooters, .parent-slide{
      padding:15px;
   }
-  
 
 
+    .slider_scooters_movilidad{
+        width:85%;
+        margin:0 auto;
+        text-align: center;
+        padding:10px;
+        color:#e8b30d;
+        
+      }
+      .slide_scooters_movilidad{
+        width:310px !important;
+        
+      }
+      .slider_scooters_movilidad, .parent-slide{
+        padding:10px;
+    
+      }
+    
+     .slider_scooters_movilidad .img-responsive{
+         
+        display: block;
+        background:#fece0c ;
+        height: 306px;
+    }
+
+
+    .slick-prev img, .slick-next img {
+        height: 30px;
+    }
+
+/*fin carousel slider */
+
+.carousel2 h1 {
+    font-size: 55px;
+}
+
+.carousel2 span {
+    font-size: 25px;
+}
+
+.button_carousel4 {
+    color: #682666 ;
+    border: 2px solid #682666;
+    text-align: center;
+    width: 200px;
+    height: 38px;
+    background: transparent;
+    cursor: pointer;
+}
 
 .contenedor_boton_desk  {
 
@@ -672,7 +563,6 @@ display: block;
     display: flex;
     justify-content: center;
     margin-bottom: 52px;
-
 }
 
 }

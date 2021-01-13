@@ -1,5 +1,5 @@
 window.onload=function(){
-    $('.slider').slick({
+    $('.slider_scooters_movilidad').slick({
     autoplay:true,
     autoplaySpeed:1000,
     arrows:true,
