@@ -242,13 +242,7 @@ background: transparent;
 }
 
 
-.carou2 {
 
-background-color: #e8b30d;
-width: 200px;
-height: 400px;
-
-}
 
 .carousel2 {
 
@@ -284,25 +278,7 @@ height: 400px;
 }
 
 
-.slider{
-    width:100%;
-    margin:20px auto;
-    text-align: center;
-    padding:20px;
-    color:#e8b30d;
-    
-  }
-  .slider parent-slide{
-    padding:20px;
 
-  }
-
- .slider img{
-     
-    display: block;
-    margin:auto;
-    background:#fece0c ;
-}
 
 
 .boton_carousel {
@@ -311,6 +287,7 @@ height: 400px;
     width: 306px;
     margin: auto;
     padding-bottom: 15px;
+    color: #6a2564;
 
 }
 
@@ -535,7 +512,75 @@ display: block;
     cursor: pointer;  
      
 }
+.boton_carousel p span {
 
+    font-size: 10px;
+}
+
+.boton_carousel p  {
+
+    padding-bottom: 10px;
+}
+
+.button_carousel3 {
+
+    color:  black ;
+    border: 2px solid black;
+    background: transparent;
+    cursor: pointer;
+    width: 250px;
+    height: 35px;
+
+
+}
+
+
+.slider{
+    width:85%;
+    margin:10px auto;
+    text-align: center;
+    padding:10px;
+    color:#e8b30d;
+    
+  }
+  .slider parent-slide{
+    padding:10px;
+
+  }
+
+ .slider img{
+     
+    display: block;
+    margin:auto;
+    background:#fece0c ;
+}
+
+
+.slide, .slick-slide, .slick-cloned, .slick-active {
+    width: 340px !important;
+
+}
+
+.carousel2 h1 {
+    
+    font-size: 55px;
+
+}
+
+.carousel2 span {
+    
+    font-size: 25px;
+}
+
+.button_carousel4 {
+    color: #682666 ;
+    border: 2px solid #682666;
+    text-align: center;
+    width: 200px;
+    height: 38px;
+    background: transparent;
+    cursor: pointer;
+}
 
 
 }
