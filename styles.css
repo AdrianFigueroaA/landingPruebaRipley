@@ -270,6 +270,75 @@ display: none;
 }
 
 
+
+/* carousel slider */
+
+.slider-scooters{
+    width:300px;
+    margin:20px 30px;
+    text-align: center;
+    padding:20px;
+    color:white;
+  }
+  
+  .slider-scooters .slider-scooters-item img{
+    display: block;
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    object-fit: cover;
+  }
+   .slider-scooters, .parent-slide{
+     padding:15px;
+  }
+
+
+    .slider_scooters_movilidad{
+        width:85%;
+        margin:0 auto;
+        text-align: center;
+        padding:10px;
+        color:#e8b30d;
+        
+      }
+      .slide_scooters_movilidad{
+        width:310px !important;
+        
+      }
+      .slider_scooters_movilidad, .parent-slide{
+        padding:10px;
+    
+      }
+    
+     .slider_scooters_movilidad .img-responsive{
+         
+        display: block;
+        background:#fece0c ;
+        object-fit: cover;
+        height: 300px;
+        width: 288px;
+    }
+
+
+    .slick-prev img, .slick-next img {
+        height: 30px;
+    }
+
+/*fin carousel slider */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 600px) {
    
 
@@ -414,7 +483,7 @@ display: none;
   .scooter_desk {
     background-image: url("assets/img/scooters/scooter-title@2x.png");
     display: flex;
-    width: 350px;
+    width: 300px;
     margin-right: 52px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -489,7 +558,7 @@ display: block;
     margin:20px 50px;
     text-align: center;
     padding:20px;
-    margin:20px auto;
+    margin:20px ;
     color:white;
   }
   
@@ -526,7 +595,9 @@ display: block;
          
         display: block;
         background:#fece0c ;
-        height: 306px;
+        object-fit: cover;
+        height: 300px;
+        width: 288px;
     }
 
 
@@ -558,11 +629,11 @@ display: block;
 
     background: #e8b30d;
     height: 80px;
-    width: 319px;
-    margin-right: 31px;
+    width: 278px;
+    margin-right: 27px;
     display: flex;
     justify-content: center;
-    margin-bottom: 52px;
+    margin-bottom: 25px;
 }
 
 }
