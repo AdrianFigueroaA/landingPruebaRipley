@@ -6,7 +6,7 @@ window.onload=function(){
     prevArrow:'<button type="button" class="slick-prev"></button>',
     nextArrow:'<button type="button" class="slick-next"></button>',
     centerMode:true,
-    slidesToShow:3,
+    slidesToShow:2,
     slidesToScroll:3
     });
 
@@ -18,6 +18,6 @@ window.onload=function(){
             nextArrow:'<button type="button" class="slick-next"></button>',
             centerMode:true,
             slidesToShow:1,
-            slidesToScroll:3
+            slidesToScroll:1
             });
   };
