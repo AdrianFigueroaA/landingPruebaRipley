@@ -244,7 +244,7 @@ background: transparent;
 
 .carou2 {
 
-background-color: yellow;
+background-color: #e8b30d;
 width: 200px;
 height: 400px;
 
@@ -285,24 +285,36 @@ height: 400px;
 
 
 .slider{
-    width:400px;
+    width:100%;
     margin:20px auto;
     text-align: center;
     padding:20px;
-    color:white;
+    color:#e8b30d;
     
   }
   .slider parent-slide{
-    padding:15px;
+    padding:20px;
 
   }
 
- .slider  img{display: block;margin:auto;}
+ .slider img{
+     
+    display: block;
+    margin:auto;
+    background:#fece0c ;
+}
 
 
-.gallery-cell {
-    width: 100%;
-  }
+.boton_carousel {
+
+    background:#fece0c ;
+    width: 306px;
+    margin: auto;
+    padding-bottom: 15px;
+
+}
+
+
   
 
 
